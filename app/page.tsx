@@ -1,5 +1,8 @@
 import Image from "next/image";
-
+/**
+ * Mobile-first responsive landing page for players using Next.js 13 with Tailwind CSS.
+ * @returns {JSX.Element} The landing page component.
+ */
 export default function Home() {
   return (
     <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
